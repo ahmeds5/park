@@ -79,6 +79,15 @@ $(function() {
       $(".ride6").removeClass("opacity");
       $(".ride7").removeClass("opacity");
       $(".ride8").addClass("opacity");
+    } else if (convertedHeight === 69){
+      $(".ride1").removeClass("opacity");
+      $(".ride2").removeClass("opacity");
+      $(".ride3").removeClass("opacity");
+      $(".ride4").removeClass("opacity");
+      $(".ride5").removeClass("opacity");
+      $(".ride6").removeClass("opacity");
+      $(".ride7").removeClass("opacity");
+      $(".ride8").addClass("opacity");
     } else if (convertedHeight >= 70) {
       $(".ride1").removeClass("opacity");
       $(".ride2").removeClass("opacity");

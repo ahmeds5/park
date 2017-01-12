@@ -4,8 +4,44 @@
 
 .opacity {
   opacity: .5;
+  background-color: #19468e;
 }
 
 .col-md-3 {
-  background-color: orange;
+  height: 400px;
+}
+
+.col-md-3:hover {
+  background-color: #19468e;
+  color: white;
+}
+
+body {
+  background-color: #2a63bf;
+}
+
+.col-md-3 img {
+  max-width: 80%;
+  max-width: 200px;
+  margin-bottom: 4%;
+  border-radius: 4px;
+  border: thin solid black;
+}
+
+.jumbotron h1 {
+  font-family: 'Contrail One', cursive;
+  text-align: center;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  font-family: 'Contrail One', cursive;
+  text-align: right;
+  color: #fff;
+}
+
+.jumbotron {
+  background: url("../images/banner.jpeg");
+  background-size: cover;
+
 }
